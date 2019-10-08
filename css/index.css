@@ -275,7 +275,7 @@ footer {
 
 @media (max-width: 800px) {
     body {
-        background-color: orange;
+        background-color: lightsalmon;
     }
 
     .logoDesktop {
@@ -289,9 +289,7 @@ footer {
     .mainContent {
         max-width: 100%;
     }
-    .mainContent1 .featuresBox,.aboutBox{}
-        width:50%;
-    }
+
 
 }
 
@@ -300,6 +298,82 @@ footer {
         background-color: lightgreen;
     }
 
+    .pageContainer {
+        width: 100%;
+        margin: 1% auto;
+    }
+
+    header {
+        display: flex;
+        margin-top: 40px;
+        /* align-items: center; */
+    }
+
+    nav {
+        display:flex;
+        /* width:100%; */
+        flex-direction: column;
+        
+        
+        /* border: 1px solid lightcoral; */
+    }
+
+    nav a {
+        width: 100%;
+        font-size: 24pt;
+        color: grey;
+        text-decoration: none;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        /* border: 1px solid lightcoral; */
+    }
+
+    .mainContent1 {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .featuresBox {
+        margin-top: 30px;
+        /* border: 1px solid lightcoral; */
+    }
+    
+    .aboutBox {
+        margin-top: 30px;
+        /* border: 1px solid lightcoral; */
+    }
+
+
+    .imageContainer .middle-img {
+        display: flex;
+        width: 100%;
+    }
+
+
+    .mainContent2 {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .servicesBox {
+        margin-top: 30px;
+        /* border: 1px solid lightcoral; */
+    }
+    
+    .productBox {
+        margin-top: 30px;
+        /* border: 1px solid lightcoral; */
+    }
+    
+    .visionBox {
+        margin-top: 30px;
+        /* border: 1px solid lightcoral; */
+    }
 
 }
 
