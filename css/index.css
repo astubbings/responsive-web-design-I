@@ -143,8 +143,9 @@ nav a {
 	
 }
 
-/* .featuresBox {
-} */
+.featuresBox,.aboutBox,.servicesBox,.productBox,.visionBox {
+    margin-right: 15px;
+}
 
 
 .imageContainer {
@@ -155,22 +156,22 @@ nav a {
 	display: flex;
 	margin-top:30px;
 	margin-bottom: 50px;
-	border: 1px solid lightcoral;
+	/* border: 1px solid lightcoral; */
 	justify-content: space-between;
 }
 
 .servicesBox {
 	
-	border: 1px solid lightcoral;
+	/* border: 1px solid lightcoral; */
 }
 
 .productBox {
 	
-	border: 1px solid lightcoral;
+	/* border: 1px solid lightcoral; */
 }
 
 .visionBox {
-	border: 1px solid lightcoral;
+	/* border: 1px solid lightcoral; */
 }
 
 address {
@@ -260,11 +261,37 @@ footer {
 
 /* BEGIN MEDIA TAGS HERE */
  /* The 800px media size is for "tablet" - this is desktop first design */
+
+ .tabletLogo {
+    display:flex;
+    justify-content: center;
+}
+@media (min-width: 801px) {
+    .tabletLogo {
+        display: none;
+    }
+}
+
+
 @media (max-width: 800px) {
     body {
         background-color: orange;
     }
 
+    .logoDesktop {
+        display: none;
+    }
+
+    .ctaColumn2 {
+        display: none;
+    }
+
+    .mainContent {
+        max-width: 100%;
+    }
+    .mainContent1 .featuresBox,.aboutBox{}
+        width:50%;
+    }
 
 }
 
@@ -276,11 +303,6 @@ footer {
 
 }
 
-@media (min-width: 801px) {
-    .tabletLogo {
-        display: none;
-    }
-}
 
 
 
