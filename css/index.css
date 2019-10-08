@@ -278,6 +278,11 @@ footer {
         background-color: lightsalmon;
     }
 
+    .pageContainer {
+        width: 100%;
+        margin: 1% auto;
+    }
+
     .logoDesktop {
         display: none;
     }
